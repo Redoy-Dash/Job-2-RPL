@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container">
+                <a class="navbar-brand" href="#"><img src="images/Logo.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="pe-5 "><a href="index.html">Home</a></li>
+                        <li class="pe-5 "><a href="#">Product</a></li>
+                        <li class="pe-5 "><a href="about.html">About Us</a></li>
+                        <li class="pe-5 "><a href="contact.html">Contact Us</a></li>
+                        <li class="pe-5 "><a href="#" id="Clock">12:00:00 AM</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Header End -->
+    <!-- Main -->
+    <main>
+        <!-- Container for the content -->
+        <section class="video-section">
+            <div class="container">
+                <div class="video-title">
+                    <h2 class="text-center">Monstera Growth Stages & Care Routine</h2>
+                    <p class="text-center">Watch the video to learn how to care for your Monstera plant from seedling to
+                        maturity!</p>
+                </div>
+
+                <!-- Video Section -->
+                <div class="video-container">
+                    <!-- Embed a video (Replace with your own video link) -->
+
+                    <video width="800" height="400" src="https://youtu.be/zKguO4oaAGs?si=ch1ElXW7XMZLJ23v"
+                        controls></video>
+                </div>
+
+                <!-- Care Routine Section -->
+                <div class="routine-section my-5">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h3 class="text-center">Monstera Care Tips</h3>
+                            <ul>
+                                <li><strong>Watering:</strong> Water thoroughly when the top 1-2 inches of soil are dry.
+                                </li>
+                                <li><strong>Light:</strong> Prefers bright, indirect light.</li>
+                                <li><strong>Humidity:</strong> Keep humidity levels high to support healthy growth.</li>
+                                <li><strong>Fertilization:</strong> Fertilize once a month during the growing season.
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <h3>Growth Stages</h3>
+                            <ul>
+                                <li><strong>Stage 1:</strong> Seedling with simple leaves.</li>
+                                <li><strong>Stage 2:</strong> New leaves start developing holes (fenestration).</li>
+                                <li><strong>Stage 3:</strong> Mature Monstera with large, split leaves.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- watering section -->
+        <section class="watering my-5">
+            <div class="container mt-5">
+                <h2 class="text-center mb-4">Plant Care Information</h2>
+                <table class="table table-bordered table-striped">
+                    <thead class="table-dark">
+                        <tr>
+                            <th scope="col">Plant Size Options</th>
+                            <th scope="col">Light Requirements</th>
+                            <th scope="col">Watering Requirements</th>
+                            <th scope="col">Toxicity Level</th>
+                            <th scope="col">Repotting Recommendations</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Small (Up to 12 inches)</td>
+                            <td>Low to Medium light</td>
+                            <td>Water when soil is dry</td>
+                            <td>Non-toxic</td>
+                            <td>Repot every 1-2 years</td>
+                        </tr>
+                        <tr>
+                            <td>Medium (12-24 inches)</td>
+                            <td>Bright, indirect light</td>
+                            <td>Keep soil moist but not soggy</td>
+                            <td>Mildly toxic to pets</td>
+                            <td>Repot every 2-3 years</td>
+                        </tr>
+                        <tr>
+                            <td>Large (24+ inches)</td>
+                            <td>Full sunlight</td>
+                            <td>Water frequently</td>
+                            <td>Highly toxic to pets</td>
+                            <td>Repot every 3-4 years</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- plant-parents section -->
+        <section class="plant-parents my-5">
+            <div class="container">
+                <div class="container mt-5">
+                    <h1 class="text-center mb-5">Parent Tips & Care Experiences</h1>
+
+                    <!-- Section for submitting tips -->
+                    <div class="row">
+                        <div class="col-md-6 offset-md-3">
+                            <div class="card p-4 mb-4">
+                                <h3 class="card-title text-center">Share Your Experience</h3>
+                                <form>
+                                    <div class="form-group">
+                                        <label for="parentName" class="my-2">Your Name</label>
+                                        <input type="text" class="form-control" id="parentName"
+                                            placeholder="Enter your name">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="careExperience" class="my-2">Care Experience</label>
+                                        <textarea class="form-control" id="careExperience" rows="4"
+                                            placeholder="Share your care tips or experiences"></textarea>
+                                    </div>
+                                    <div class="form-group mb-2 mt-2">
+                                        <label for="photoUpload">Upload a Photo</label>
+                                        <input type="file" class="form-control-file" id="photoUpload">
+                                    </div>
+                                    <button type="submit" class="btn btn-primary btn-block">Submit</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Section for displaying shared experiences and photos -->
+                    <div class="row mt-5">
+                        <div class="col-md-12">
+                            <h2 class="text-center mb-4">Shared Tips & Photos</h2>
+                            <div class="row">
+                                <!-- Example card for an experience -->
+                                <div class="col-md-4">
+                                    <div class="card tips-card">
+                                        <img src="images/men-1.jpg" class="card-img-top gallery-img" alt="Parent Photo">
+                                        <div class="card-body">
+                                            <h5 class="card-title">John Doe</h5>
+                                            <p class="card-text">"I found that a consistent bedtime routine works
+                                                wonders for my little one."</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card tips-card">
+                                        <img src="images/men-2.jpg" class="card-img-top gallery-img" alt="Parent Photo">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Jane Smith</h5>
+                                            <p class="card-text">"Using organic baby products has helped my baby’s
+                                                sensitive skin a lot."</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-4">
+                                    <div class="card tips-card">
+                                        <img src="images/girl-2.jpg" class="card-img-top gallery-img"
+                                            alt="Parent Photo">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Mary Johnson</h5>
+                                            <p class="card-text">"Make sure to play soft music to calm your baby during
+                                                naptime."</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Main End -->
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <!-- Company Info -->
+                <div class="col-md-4">
+                    <h5>Plant Store</h5>
+                    <p>Your go-to place for indoor and outdoor plants. We offer a wide variety of plants, pots, and
+                        gardening tools.</p>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="col-md-4">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Shop</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Social Media -->
+                <div class="col-md-4">
+                    <h5>Follow Us</h5>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.twitter.com"><i class="fa-brands fa-square-twitter"></i></a>
+                        <a href="https://www.youtube.com"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-center mt-4">
+            <span>&copy; 2024 Plant Store. All rights reserved.</span>
+        </div>
+    </footer>
+    <!-- Footer End -->
+
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script>
+        const showTime = () => {
+            let date = new Date();
+            let h = date.getHours();
+            let m = date.getMinutes();
+            let s = date.getSeconds();
+            let session = "AM";
+
+
+            if (h > 11) {
+                session = "PM";
+            }
+
+            if (h > 12) {
+                h = h - 12;
+            }
+
+            if (h === 0) {
+                h = 12;
+            }
+
+            h = h < 10 ? "0" + h : h;
+            m = m < 10 ? "0" + m : m;
+            s = s < 10 ? "0" + s : s;
+
+            let time = h + ":" + m + ":" + s + " " + session;
+            document.getElementById("Clock").innerText = time;
+
+        }
+        setInterval(showTime, 1000);
+    </script>
+</body>
+
+</html>

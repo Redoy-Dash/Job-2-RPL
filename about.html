@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container">
+                <a class="navbar-brand" href="#"><img src="images/Logo.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="pe-5 "><a href="index.html">Home</a></li>
+                        <li class="pe-5 "><a href="product.html">Product</a></li>
+                        <li class="pe-5 "><a href="#">About Us</a></li>
+                        <li class="pe-5 "><a href="contact.html">Contact Us</a></li>
+                        <li class="pe-5 "><a href="#" id="Clock">12:00:00 AM</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Header End -->
+    <!-- Main -->
+    <main>
+        <section id="plants" class="py-5">
+            <div class="container">
+                <h2 class="text-center mb-4">Our Indoor Plants</h2>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="images/indore-1.jpg" class="card-img-top" alt="Plant 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Aloe Vera</h5>
+                                <p class="card-text">Aloe Vera is known for its healing properties. Perfect for indoors.
+                                </p>
+                                <a href="#" class="btn btn-success">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="images/indore-2.jpg" class="card-img-top" alt="Plant 2">
+                            <div class="card-body">
+                                <h5 class="card-title">Snake Plant</h5>
+                                <p class="card-text">Low maintenance plant that purifies air and adds beauty to any
+                                    room.</p>
+                                <a href="#" class="btn btn-success">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="images/indore-3.jpg" class="card-img-top" alt="Plant 3">
+                            <div class="card-body">
+                                <h5 class="card-title">Peace Lily</h5>
+                                <p class="card-text">An elegant plant that cleans the air and requires minimal care.</p>
+                                <a href="#" class="btn btn-success">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Main End -->
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <!-- Company Info -->
+                <div class="col-md-4">
+                    <h5>Plant Store</h5>
+                    <p>Your go-to place for indoor and outdoor plants. We offer a wide variety of plants, pots, and
+                        gardening tools.</p>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="col-md-4">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Shop</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Social Media -->
+                <div class="col-md-4">
+                    <h5>Follow Us</h5>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.twitter.com"><i class="fa-brands fa-square-twitter"></i></a>
+                        <a href="https://www.youtube.com"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-center mt-4">
+            <span>&copy; 2024 Plant Store. All rights reserved.</span>
+        </div>
+    </footer>
+    <!-- Footer End -->
+
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script>
+        const showTime = () => {
+            let date = new Date();
+            let h = date.getHours();
+            let m = date.getMinutes();
+            let s = date.getSeconds();
+            let session = "AM";
+
+
+            if (h > 11) {
+                session = "PM";
+            }
+
+            if (h > 12) {
+                h = h - 12;
+            }
+
+            if (h === 0) {
+                h = 12;
+            }
+
+            h = h < 10 ? "0" + h : h;
+            m = m < 10 ? "0" + m : m;
+            s = s < 10 ? "0" + s : s;
+
+            let time = h + ":" + m + ":" + s + " " + session;
+            document.getElementById("Clock").innerText = time;
+
+        }
+        setInterval(showTime, 1000);
+    </script>
+</body>
+
+</html>
